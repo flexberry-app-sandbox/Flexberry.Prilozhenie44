@@ -28,17 +28,17 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('БазаДанныхE', 'i-i-s-prilozhenie-44-база-данных', {
-    справУч: belongsTo('i-i-s-prilozhenie-44-справ-уч', 'Номер Карты', {
+    справУч: belongsTo('i-i-s-prilozhenie-44-справ-уч', 'Фио Ученика', {
+      фио: attr('Фио Ученика', { index: 1 }),
       номер: belongsTo('i-i-s-prilozhenie-44-номер', '', {
-        наименование: attr('Номер Карты', { index: 0 })
+        наименование: attr('Номер Карты', { index: 2 })
       }, { index: -1, hidden: true }),
-      фио: attr('Фио Ученика', { index: 2 }),
       классУч: belongsTo('i-i-s-prilozhenie-44-класс-уч', '', {
         назв: attr('Класс Ученика', { index: 3 })
       }, { index: -1, hidden: true }),
       справРод: belongsTo('i-i-s-prilozhenie-44-справ-род', '', {
         фио: attr('Фио Родителя', { index: 4 })
       }, { index: -1, hidden: true })
-    }, { index: 1 })
+    }, { index: 0, displayMemberPath: 'фио Ученика' })
   });
 };

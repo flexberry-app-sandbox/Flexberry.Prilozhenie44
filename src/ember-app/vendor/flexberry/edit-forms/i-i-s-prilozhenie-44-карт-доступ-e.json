@@ -10,7 +10,7 @@
     },
     {
       "master": "справУч",
-      "displayAttributeName": null,
+      "displayAttributeName": "фио Ученика",
       "required": true,
       "relationName": "БазаДанных.СправУч",
       "projection": "СправУчL",

@@ -30,8 +30,8 @@
       "attrs": [],
       "belongsTo": [
         {
-          "lookupValue": null,
-          "lookupValueField": null,
+          "lookupValue": "Фио Ученика",
+          "lookupValueField": "фио Ученика",
           "relationName": "СправУч",
           "belongsTo": [
             {
@@ -45,7 +45,7 @@
                   "name": "наименование",
                   "caption": "Номер Карты",
                   "hidden": false,
-                  "index": 0
+                  "index": 2
                 }
               ],
               "index": -1,
@@ -104,12 +104,12 @@
               "name": "фио",
               "caption": "Фио Ученика",
               "hidden": false,
-              "index": 2
+              "index": 1
             }
           ],
-          "index": 1,
-          "type": "default",
-          "caption": "Номер Карты",
+          "index": 0,
+          "type": "standard",
+          "caption": "Фио Ученика",
           "name": "справУч",
           "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
           "inverse": null
