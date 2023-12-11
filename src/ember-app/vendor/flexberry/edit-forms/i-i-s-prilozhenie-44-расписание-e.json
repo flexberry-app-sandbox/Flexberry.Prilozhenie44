@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44РасписаниеE",
+  "className": "РасписаниеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-расписание",
+      "modelProjection": "РасписаниеE"
+    }
+  ]
+}

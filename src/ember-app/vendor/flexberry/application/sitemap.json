@@ -63,6 +63,13 @@
           "caption": "Фиксация Прихода/Ухода в школу",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-44-расписание-l",
+          "menuName": null,
+          "caption": "Расписание",
+          "title": "",
+          "children": null
         }
       ]
     }

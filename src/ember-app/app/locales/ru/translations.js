@@ -5,6 +5,7 @@ import IISPrilozhenie_44КартДоступLForm from './forms/i-i-s-prilozheni
 import IISPrilozhenie_44КлассУчLForm from './forms/i-i-s-prilozhenie-44-класс-уч-l';
 import IISPrilozhenie_44НомерLForm from './forms/i-i-s-prilozhenie-44-номер-l';
 import IISPrilozhenie_44ПриходУходLForm from './forms/i-i-s-prilozhenie-44-приход-уход-l';
+import IISPrilozhenie_44РасписаниеLForm from './forms/i-i-s-prilozhenie-44-расписание-l';
 import IISPrilozhenie_44СправДолжLForm from './forms/i-i-s-prilozhenie-44-справ-долж-l';
 import IISPrilozhenie_44СправРодLForm from './forms/i-i-s-prilozhenie-44-справ-род-l';
 import IISPrilozhenie_44СправСотрLForm from './forms/i-i-s-prilozhenie-44-справ-сотр-l';
@@ -13,6 +14,7 @@ import IISPrilozhenie_44КартДоступEForm from './forms/i-i-s-prilozheni
 import IISPrilozhenie_44КлассУчEForm from './forms/i-i-s-prilozhenie-44-класс-уч-e';
 import IISPrilozhenie_44НомерEForm from './forms/i-i-s-prilozhenie-44-номер-e';
 import IISPrilozhenie_44ПриходУходEForm from './forms/i-i-s-prilozhenie-44-приход-уход-e';
+import IISPrilozhenie_44РасписаниеEForm from './forms/i-i-s-prilozhenie-44-расписание-e';
 import IISPrilozhenie_44СправДолжEForm from './forms/i-i-s-prilozhenie-44-справ-долж-e';
 import IISPrilozhenie_44СправРодEForm from './forms/i-i-s-prilozhenie-44-справ-род-e';
 import IISPrilozhenie_44СправСотрEForm from './forms/i-i-s-prilozhenie-44-справ-сотр-e';
@@ -142,6 +144,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie-44-приход-уход-l': {
             caption: 'Фиксация Прихода/Ухода в школу',
             title: ''
+          },
+          'i-i-s-prilozhenie-44-расписание-l': {
+            caption: 'Расписание',
+            title: ''
           }
         }
       }
@@ -159,6 +165,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-класс-уч-l': IISPrilozhenie_44КлассУчLForm,
     'i-i-s-prilozhenie-44-номер-l': IISPrilozhenie_44НомерLForm,
     'i-i-s-prilozhenie-44-приход-уход-l': IISPrilozhenie_44ПриходУходLForm,
+    'i-i-s-prilozhenie-44-расписание-l': IISPrilozhenie_44РасписаниеLForm,
     'i-i-s-prilozhenie-44-справ-долж-l': IISPrilozhenie_44СправДолжLForm,
     'i-i-s-prilozhenie-44-справ-род-l': IISPrilozhenie_44СправРодLForm,
     'i-i-s-prilozhenie-44-справ-сотр-l': IISPrilozhenie_44СправСотрLForm,
@@ -167,6 +174,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-класс-уч-e': IISPrilozhenie_44КлассУчEForm,
     'i-i-s-prilozhenie-44-номер-e': IISPrilozhenie_44НомерEForm,
     'i-i-s-prilozhenie-44-приход-уход-e': IISPrilozhenie_44ПриходУходEForm,
+    'i-i-s-prilozhenie-44-расписание-e': IISPrilozhenie_44РасписаниеEForm,
     'i-i-s-prilozhenie-44-справ-долж-e': IISPrilozhenie_44СправДолжEForm,
     'i-i-s-prilozhenie-44-справ-род-e': IISPrilozhenie_44СправРодEForm,
     'i-i-s-prilozhenie-44-справ-сотр-e': IISPrilozhenie_44СправСотрEForm,

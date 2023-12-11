@@ -39,11 +39,11 @@ namespace IIS.Prilozhenie_44
     public class Расписание : ICSSoft.STORMNET.DataObject
     {
         
-        private string fУрок;
-        
         private string fПериодОт;
         
         private string fПериодДо;
+        
+        private string fУрок;
         
         // *** Start programmer edit section *** (Расписание CustomMembers)
 

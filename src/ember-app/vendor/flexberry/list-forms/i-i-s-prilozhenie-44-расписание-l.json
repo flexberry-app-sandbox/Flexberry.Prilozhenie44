@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-расписание-e",
+  "editForm": "i-i-s-prilozhenie-44-расписание-e",
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44РасписаниеL",
+  "className": "РасписаниеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-расписание",
+      "modelProjection": "РасписаниеL"
+    }
+  ]
+}
