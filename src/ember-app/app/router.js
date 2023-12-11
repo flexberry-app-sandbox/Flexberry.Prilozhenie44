@@ -16,6 +16,11 @@ Router.map(function () {
   { path: 'i-i-s-prilozhenie-44-класс-уч-e/:id' });
   this.route('i-i-s-prilozhenie-44-класс-уч-e.new',
   { path: 'i-i-s-prilozhenie-44-класс-уч-e/new' });
+  this.route('i-i-s-prilozhenie-44-номер-l');
+  this.route('i-i-s-prilozhenie-44-номер-e',
+  { path: 'i-i-s-prilozhenie-44-номер-e/:id' });
+  this.route('i-i-s-prilozhenie-44-номер-e.new',
+  { path: 'i-i-s-prilozhenie-44-номер-e/new' });
   this.route('i-i-s-prilozhenie-44-справ-долж-l');
   this.route('i-i-s-prilozhenie-44-справ-долж-e',
   { path: 'i-i-s-prilozhenie-44-справ-долж-e/:id' });

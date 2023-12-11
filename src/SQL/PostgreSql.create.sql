@@ -17,6 +17,12 @@ CREATE TABLE Расписание (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE Номер (
+ primaryKey UUID NOT NULL,
+ Наименование INT NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СправДолж (
  primaryKey UUID NOT NULL,
  Должность VARCHAR(255) NULL,

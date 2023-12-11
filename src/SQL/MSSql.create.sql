@@ -24,6 +24,15 @@ CREATE TABLE [Расписание] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [Номер] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Наименование] INT  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СправДолж] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,

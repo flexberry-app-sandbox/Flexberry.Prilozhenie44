@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISPrilozhenie_44Номер",
+  "modelName": "i-i-s-prilozhenie-44-номер",
+  "className": "Номер",
+  "nameSpace": "IIS.Prilozhenie_44",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НомерE",
+      "modelName": "i-i-s-prilozhenie-44-номер",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Номер Карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "НомерL",
+      "modelName": "i-i-s-prilozhenie-44-номер",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Номер Карты",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

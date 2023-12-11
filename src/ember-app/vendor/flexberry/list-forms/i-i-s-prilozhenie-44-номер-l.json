@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-номер-e",
+  "editForm": "i-i-s-prilozhenie-44-номер-e",
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44НомерL",
+  "className": "НомерL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-номер",
+      "modelProjection": "НомерL"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ moduleForModel('i-i-s-prilozhenie-44-справ-сотр', 'Unit | Model | i-i-s
     'model:i-i-s-prilozhenie-44-база-данных',
     'model:i-i-s-prilozhenie-44-карт-доступ',
     'model:i-i-s-prilozhenie-44-класс-уч',
+    'model:i-i-s-prilozhenie-44-номер',
     'model:i-i-s-prilozhenie-44-расписание',
     'model:i-i-s-prilozhenie-44-справ-долж',
     'model:i-i-s-prilozhenie-44-справ-род',

@@ -28,6 +28,17 @@ CREATE TABLE "Расписание"
 ) ;
 
 
+CREATE TABLE "Номер"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Наименование" NUMBER(10) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправДолж"
 (
 
