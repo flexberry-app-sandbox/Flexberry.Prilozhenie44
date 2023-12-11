@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-44-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-класс-уч-l.title'),
-            icon: 'briefcase',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-долж-l',
@@ -40,31 +40,31 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-44-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-уч-l.title'),
-            icon: 'book',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-сотр-l.title'),
-            icon: 'building',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-род-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-род-l.title'),
-            icon: 'book',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-карт-доступ-l.title'),
-            icon: 'folder',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-номер-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-номер-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-номер-l.title'),
-            icon: 'file',
+            icon: 'tags',
             children: null
           }]
         }

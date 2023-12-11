@@ -30,8 +30,8 @@
       "attrs": [],
       "belongsTo": [
         {
-          "lookupValue": "Фио Ученика",
-          "lookupValueField": "фио Ученика",
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "СправУч",
           "belongsTo": [
             {
@@ -45,7 +45,7 @@
                   "name": "наименование",
                   "caption": "Номер Карты",
                   "hidden": false,
-                  "index": 2
+                  "index": 0
                 }
               ],
               "index": -1,
@@ -104,84 +104,12 @@
               "name": "фио",
               "caption": "Фио Ученика",
               "hidden": false,
-              "index": 1
+              "index": 2
             }
           ],
-          "index": 0,
-          "type": "standard",
-          "caption": "Фио Ученика",
-          "name": "справУч",
-          "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
-          "inverse": null
-        }
-      ],
-      "hasMany": []
-    },
-    {
-      "name": "БазаДанныхE",
-      "modelName": "i-i-s-prilozhenie-44-база-данных",
-      "attrs": [],
-      "belongsTo": [
-        {
-          "lookupValue": "Фио Ученика",
-          "lookupValueField": "фио Ученика",
-          "relationName": "СправУч",
-          "belongsTo": [
-            {
-              "lookupValue": null,
-              "lookupValueField": null,
-              "relationName": "СправУч.КлассУч",
-              "belongsTo": [],
-              "hidden": false,
-              "attrs": [
-                {
-                  "name": "назв",
-                  "caption": "Класс Ученика",
-                  "hidden": false,
-                  "index": 2
-                }
-              ],
-              "index": -1,
-              "type": null,
-              "caption": "",
-              "name": "классУч",
-              "relatedTo": "i-i-s-prilozhenie-44-класс-уч",
-              "inverse": null
-            },
-            {
-              "lookupValue": null,
-              "lookupValueField": null,
-              "relationName": "СправУч.СправРод",
-              "belongsTo": [],
-              "hidden": false,
-              "attrs": [
-                {
-                  "name": "фио",
-                  "caption": "Фио Родителя",
-                  "hidden": false,
-                  "index": 3
-                }
-              ],
-              "index": -1,
-              "type": null,
-              "caption": "",
-              "name": "справРод",
-              "relatedTo": "i-i-s-prilozhenie-44-справ-род",
-              "inverse": null
-            }
-          ],
-          "hidden": false,
-          "attrs": [
-            {
-              "name": "фио",
-              "caption": "Фио Ученика",
-              "hidden": false,
-              "index": 1
-            }
-          ],
-          "index": 0,
-          "type": "standard",
-          "caption": "Фио Ученика",
+          "index": 1,
+          "type": "default",
+          "caption": "Номер Карты",
           "name": "справУч",
           "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
           "inverse": null
