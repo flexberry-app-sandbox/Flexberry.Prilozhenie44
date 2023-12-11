@@ -11,6 +11,19 @@ CREATE TABLE [КлассУч] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [Расписание] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [ПериодДо] VARCHAR(255)  NULL,
+
+	 [ПериодОт] VARCHAR(255)  NULL,
+
+	 [Урок] VARCHAR(255)  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [СправДолж] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -38,8 +51,6 @@ CREATE TABLE [СправУч] (
 CREATE TABLE [БазаДанных] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
-
-	 [НомерКарты] VARCHAR(255)  NULL,
 
 	 [СправУч] UNIQUEIDENTIFIER  NOT NULL,
 

@@ -13,6 +13,21 @@ CREATE TABLE "КлассУч"
 ) ;
 
 
+CREATE TABLE "Расписание"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Урок" NVARCHAR2(255) NULL,
+
+	"ПериодОт" NVARCHAR2(255) NULL,
+
+	"ПериодДо" NVARCHAR2(255) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправДолж"
 (
 
@@ -45,8 +60,6 @@ CREATE TABLE "БазаДанных"
 (
 
 	"primaryKey" RAW(16) NOT NULL,
-
-	"НомерКарты" NVARCHAR2(255) NULL,
 
 	"СправУч" RAW(16) NOT NULL,
 

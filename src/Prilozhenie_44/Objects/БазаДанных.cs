@@ -30,7 +30,6 @@ namespace IIS.Prilozhenie_44
     [Caption("База данных")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("БазаДанныхE", new string[] {
-            "НомерКарты as \'Номер Карты\'",
             "СправУч as \'Фио Ученика\'",
             "СправУч.Фио as \'Фио Ученика\'",
             "СправУч.КлассУч.Назв as \'Класс Ученика\'",
@@ -38,8 +37,6 @@ namespace IIS.Prilozhenie_44
     [MasterViewDefineAttribute("БазаДанныхE", "СправУч", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Фио Ученика")]
     public class БазаДанных : ICSSoft.STORMNET.DataObject
     {
-        
-        private string fНомерКарты;
         
         private IIS.Prilozhenie_44.СправУч fСправУч;
         
@@ -49,38 +46,6 @@ namespace IIS.Prilozhenie_44
 
         // *** End programmer edit section *** (БазаДанных CustomMembers)
 
-        
-        /// <summary>
-        /// НомерКарты.
-        /// </summary>
-        // *** Start programmer edit section *** (БазаДанных.НомерКарты CustomAttributes)
-
-        // *** End programmer edit section *** (БазаДанных.НомерКарты CustomAttributes)
-        [StrLen(255)]
-        public virtual string НомерКарты
-        {
-            get
-            {
-                // *** Start programmer edit section *** (БазаДанных.НомерКарты Get start)
-
-                // *** End programmer edit section *** (БазаДанных.НомерКарты Get start)
-                string result = this.fНомерКарты;
-                // *** Start programmer edit section *** (БазаДанных.НомерКарты Get end)
-
-                // *** End programmer edit section *** (БазаДанных.НомерКарты Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (БазаДанных.НомерКарты Set start)
-
-                // *** End programmer edit section *** (БазаДанных.НомерКарты Set start)
-                this.fНомерКарты = value;
-                // *** Start programmer edit section *** (БазаДанных.НомерКарты Set end)
-
-                // *** End programmer edit section *** (БазаДанных.НомерКарты Set end)
-            }
-        }
         
         /// <summary>
         /// База данных.

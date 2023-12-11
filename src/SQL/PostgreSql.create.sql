@@ -9,6 +9,14 @@ CREATE TABLE КлассУч (
  PRIMARY KEY (primaryKey));
 
 
+CREATE TABLE Расписание (
+ primaryKey UUID NOT NULL,
+ Урок VARCHAR(255) NULL,
+ ПериодОт VARCHAR(255) NULL,
+ ПериодДо VARCHAR(255) NULL,
+ PRIMARY KEY (primaryKey));
+
+
 CREATE TABLE СправДолж (
  primaryKey UUID NOT NULL,
  Должность VARCHAR(255) NULL,
@@ -26,7 +34,6 @@ CREATE TABLE СправУч (
 
 CREATE TABLE БазаДанных (
  primaryKey UUID NOT NULL,
- НомерКарты VARCHAR(255) NULL,
  СправУч UUID NOT NULL,
  КартДоступ UUID NOT NULL,
  PRIMARY KEY (primaryKey));

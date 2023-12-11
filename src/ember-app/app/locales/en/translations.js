@@ -16,6 +16,7 @@ import IISPrilozhenie_44СправУчEForm from './forms/i-i-s-prilozhenie-44-�
 import IISPrilozhenie_44БазаДанныхModel from './models/i-i-s-prilozhenie-44-база-данных';
 import IISPrilozhenie_44КартДоступModel from './models/i-i-s-prilozhenie-44-карт-доступ';
 import IISPrilozhenie_44КлассУчModel from './models/i-i-s-prilozhenie-44-класс-уч';
+import IISPrilozhenie_44РасписаниеModel from './models/i-i-s-prilozhenie-44-расписание';
 import IISPrilozhenie_44СправДолжModel from './models/i-i-s-prilozhenie-44-справ-долж';
 import IISPrilozhenie_44СправРодModel from './models/i-i-s-prilozhenie-44-справ-род';
 import IISPrilozhenie_44СправСотрModel from './models/i-i-s-prilozhenie-44-справ-сотр';
@@ -29,6 +30,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-база-данных': IISPrilozhenie_44БазаДанныхModel,
     'i-i-s-prilozhenie-44-карт-доступ': IISPrilozhenie_44КартДоступModel,
     'i-i-s-prilozhenie-44-класс-уч': IISPrilozhenie_44КлассУчModel,
+    'i-i-s-prilozhenie-44-расписание': IISPrilozhenie_44РасписаниеModel,
     'i-i-s-prilozhenie-44-справ-долж': IISPrilozhenie_44СправДолжModel,
     'i-i-s-prilozhenie-44-справ-род': IISPrilozhenie_44СправРодModel,
     'i-i-s-prilozhenie-44-справ-сотр': IISPrilozhenie_44СправСотрModel,

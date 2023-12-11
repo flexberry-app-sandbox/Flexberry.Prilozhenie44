@@ -35,16 +35,15 @@ export let defineProjections = function (modelClass) {
       }, { index: -1, hidden: true })
     }, { index: 0 }),
     базаДанных: hasMany('i-i-s-prilozhenie-44-база-данных', 'База Данных', {
-      номерКарты: attr('Номер Карты', { index: 0 }),
       справУч: belongsTo('i-i-s-prilozhenie-44-справ-уч', 'Фио Ученика', {
-        фио: attr('Фио Ученика', { index: 2 }),
+        фио: attr('Фио Ученика', { index: 1 }),
         классУч: belongsTo('i-i-s-prilozhenie-44-класс-уч', '', {
-          назв: attr('Класс Ученика', { index: 3 })
+          назв: attr('Класс Ученика', { index: 2 })
         }, { index: -1, hidden: true }),
         справРод: belongsTo('i-i-s-prilozhenie-44-справ-род', '', {
-          фио: attr('Фио Родителя', { index: 4 })
+          фио: attr('Фио Родителя', { index: 3 })
         }, { index: -1, hidden: true })
-      }, { index: 1, displayMemberPath: 'фио Ученика' })
+      }, { index: 0, displayMemberPath: 'фио Ученика' })
     })
   });
 

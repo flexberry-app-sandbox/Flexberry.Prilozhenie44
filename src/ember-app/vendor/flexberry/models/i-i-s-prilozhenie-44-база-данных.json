@@ -5,17 +5,7 @@
   "nameSpace": "IIS.Prilozhenie_44",
   "parentModelName": null,
   "parentClassName": null,
-  "attrs": [
-    {
-      "name": "номерКарты",
-      "type": "string",
-      "flexberryType": "string",
-      "notNull": false,
-      "defaultValue": "",
-      "stored": true,
-      "ordered": false
-    }
-  ],
+  "attrs": [],
   "belongsTo": [
     {
       "polymorphic": false,
@@ -37,14 +27,7 @@
     {
       "name": "БазаДанныхE",
       "modelName": "i-i-s-prilozhenie-44-база-данных",
-      "attrs": [
-        {
-          "name": "номерКарты",
-          "caption": "Номер Карты",
-          "hidden": false,
-          "index": 0
-        }
-      ],
+      "attrs": [],
       "belongsTo": [
         {
           "lookupValue": "Фио Ученика",
@@ -62,7 +45,7 @@
                   "name": "назв",
                   "caption": "Класс Ученика",
                   "hidden": false,
-                  "index": 3
+                  "index": 2
                 }
               ],
               "index": -1,
@@ -83,7 +66,7 @@
                   "name": "фио",
                   "caption": "Фио Родителя",
                   "hidden": false,
-                  "index": 4
+                  "index": 3
                 }
               ],
               "index": -1,
@@ -100,10 +83,10 @@
               "name": "фио",
               "caption": "Фио Ученика",
               "hidden": false,
-              "index": 2
+              "index": 1
             }
           ],
-          "index": 1,
+          "index": 0,
           "type": "standard",
           "caption": "Фио Ученика",
           "name": "справУч",
