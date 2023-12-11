@@ -56,6 +56,13 @@
           "caption": "Номер Карты",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-44-приход-уход-l",
+          "menuName": null,
+          "caption": "Фиксация Прихода/Ухода в школу",
+          "title": "",
+          "children": null
         }
       ]
     }

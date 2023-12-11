@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СправУч",
+      "projection": "СправУчL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44ПриходУходE",
+  "className": "ПриходУходE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-приход-уход",
+      "modelProjection": "ПриходУходE"
+    }
+  ]
+}

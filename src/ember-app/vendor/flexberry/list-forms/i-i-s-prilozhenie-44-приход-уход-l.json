@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-приход-уход-e",
+  "editForm": "i-i-s-prilozhenie-44-приход-уход-e",
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44ПриходУходL",
+  "className": "ПриходУходL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-приход-уход",
+      "modelProjection": "ПриходУходL"
+    }
+  ]
+}

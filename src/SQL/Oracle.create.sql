@@ -82,6 +82,17 @@ CREATE TABLE "БазаДанных"
 ) ;
 
 
+CREATE TABLE "ПриходУход"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"СправУч" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправСотр"
 (
 
@@ -339,6 +350,11 @@ ALTER TABLE "БазаДанных"
 	ADD CONSTRAINT "БазаДанных_FК_7117" FOREIGN KEY ("КартДоступ") REFERENCES "КартДоступ" ("primaryKey");
 
 CREATE INDEX "БазаДанных_IК_1369" on "БазаДанных" ("КартДоступ");
+
+ALTER TABLE "ПриходУход"
+	ADD CONSTRAINT "ПриходУход_FС_5275" FOREIGN KEY ("СправУч") REFERENCES "СправУч" ("primaryKey");
+
+CREATE INDEX "ПриходУход_IС_5526" on "ПриходУход" ("СправУч");
 
 ALTER TABLE "СправСотр"
 	ADD CONSTRAINT "СправСотр_FСп_8900" FOREIGN KEY ("СправДолж") REFERENCES "СправДолж" ("primaryKey");

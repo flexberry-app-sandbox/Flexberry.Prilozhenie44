@@ -1,0 +1,210 @@
+﻿{
+  "name": "IISPrilozhenie_44ПриходУход",
+  "modelName": "i-i-s-prilozhenie-44-приход-уход",
+  "className": "ПриходУход",
+  "nameSpace": "IIS.Prilozhenie_44",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "справУч",
+      "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПриходУходE",
+      "modelName": "i-i-s-prilozhenie-44-приход-уход",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправУч",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.Номер",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наименование",
+                  "caption": "Номер Карты",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "номер",
+              "relatedTo": "i-i-s-prilozhenie-44-номер",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.КлассУч",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "назв",
+                  "caption": "Класс Ученика",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "классУч",
+              "relatedTo": "i-i-s-prilozhenie-44-класс-уч",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.СправРод",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фио",
+                  "caption": "Фио Родителя",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справРод",
+              "relatedTo": "i-i-s-prilozhenie-44-справ-род",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио Ученика",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "default",
+          "caption": "Фио Ученика",
+          "name": "справУч",
+          "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ПриходУходL",
+      "modelName": "i-i-s-prilozhenie-44-приход-уход",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СправУч",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.Номер",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "наименование",
+                  "caption": "Номер Карты",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "номер",
+              "relatedTo": "i-i-s-prilozhenie-44-номер",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.КлассУч",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "назв",
+                  "caption": "Класс Ученика",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "классУч",
+              "relatedTo": "i-i-s-prilozhenie-44-класс-уч",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "СправУч.СправРод",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фио",
+                  "caption": "Фио Родителя",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справРод",
+              "relatedTo": "i-i-s-prilozhenie-44-справ-род",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио Ученика",
+              "hidden": false,
+              "index": 0
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фио Ученика",
+          "name": "справУч",
+          "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
