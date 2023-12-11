@@ -33,21 +33,64 @@ namespace IIS.Prilozhenie_44
             "СправУч.Фио as \'Фио Ученика\'",
             "СправУч.Номер.Наименование as \'Номер Карты\'",
             "СправУч.КлассУч.Назв as \'Класс Ученика\'",
-            "СправУч.СправРод.Фио as \'Фио Родителя\'"})]
+            "СправУч.СправРод.Фио as \'Фио Родителя\'",
+            "Расписание as \'Расписание\'",
+            "Расписание.Урок as \'Урок\'",
+            "Расписание.ПериодОт as \'Период От\'",
+            "Расписание.ПериодДо as \'Период До\'"})]
     [View("ПриходУходL", new string[] {
             "СправУч.Фио as \'Фио Ученика\'",
             "СправУч.Номер.Наименование as \'Номер Карты\'",
             "СправУч.КлассУч.Назв as \'Класс Ученика\'",
-            "СправУч.СправРод.Фио as \'Фио Родителя\'"})]
+            "СправУч.СправРод.Фио as \'Фио Родителя\'",
+            "Расписание.Урок as \'Урок\'",
+            "Расписание.ПериодОт as \'Период От\'",
+            "Расписание.ПериодДо as \'Период До\'"})]
     public class ПриходУход : ICSSoft.STORMNET.DataObject
     {
         
         private IIS.Prilozhenie_44.СправУч fСправУч;
         
+        private IIS.Prilozhenie_44.Расписание fРасписание;
+        
         // *** Start programmer edit section *** (ПриходУход CustomMembers)
 
         // *** End programmer edit section *** (ПриходУход CustomMembers)
 
+        
+        /// <summary>
+        /// ПриходУход.
+        /// </summary>
+        // *** Start programmer edit section *** (ПриходУход.Расписание CustomAttributes)
+
+        // *** End programmer edit section *** (ПриходУход.Расписание CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Расписание"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie_44.Расписание Расписание
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ПриходУход.Расписание Get start)
+
+                // *** End programmer edit section *** (ПриходУход.Расписание Get start)
+                IIS.Prilozhenie_44.Расписание result = this.fРасписание;
+                // *** Start programmer edit section *** (ПриходУход.Расписание Get end)
+
+                // *** End programmer edit section *** (ПриходУход.Расписание Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ПриходУход.Расписание Set start)
+
+                // *** End programmer edit section *** (ПриходУход.Расписание Set start)
+                this.fРасписание = value;
+                // *** Start programmer edit section *** (ПриходУход.Расписание Set end)
+
+                // *** End programmer edit section *** (ПриходУход.Расписание Set end)
+            }
+        }
         
         /// <summary>
         /// ПриходУход.

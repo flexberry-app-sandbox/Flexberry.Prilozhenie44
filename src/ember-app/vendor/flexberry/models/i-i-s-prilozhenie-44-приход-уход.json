@@ -10,6 +10,13 @@
     {
       "polymorphic": false,
       "presence": true,
+      "name": "расписание",
+      "relatedTo": "i-i-s-prilozhenie-44-расписание",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
       "name": "справУч",
       "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
       "inverse": null
@@ -106,6 +113,39 @@
           "name": "справУч",
           "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
           "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Расписание",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "урок",
+              "caption": "Урок",
+              "hidden": false,
+              "index": 6
+            },
+            {
+              "name": "периодОт",
+              "caption": "Период От",
+              "hidden": false,
+              "index": 7
+            },
+            {
+              "name": "периодДо",
+              "caption": "Период До",
+              "hidden": false,
+              "index": 8
+            }
+          ],
+          "index": 5,
+          "type": "default",
+          "caption": "Расписание",
+          "name": "расписание",
+          "relatedTo": "i-i-s-prilozhenie-44-расписание",
+          "inverse": null
         }
       ],
       "hasMany": []
@@ -198,6 +238,39 @@
           "caption": "Фио Ученика",
           "name": "справУч",
           "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Расписание",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "урок",
+              "caption": "Урок",
+              "hidden": false,
+              "index": 4
+            },
+            {
+              "name": "периодОт",
+              "caption": "Период От",
+              "hidden": false,
+              "index": 5
+            },
+            {
+              "name": "периодДо",
+              "caption": "Период До",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Урок",
+          "name": "расписание",
+          "relatedTo": "i-i-s-prilozhenie-44-расписание",
           "inverse": null
         }
       ],

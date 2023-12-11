@@ -87,6 +87,8 @@ CREATE TABLE "ПриходУход"
 
 	"primaryKey" RAW(16) NOT NULL,
 
+	"Расписание" RAW(16) NOT NULL,
+
 	"СправУч" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
@@ -350,6 +352,11 @@ ALTER TABLE "БазаДанных"
 	ADD CONSTRAINT "БазаДанных_FК_7117" FOREIGN KEY ("КартДоступ") REFERENCES "КартДоступ" ("primaryKey");
 
 CREATE INDEX "БазаДанных_IК_1369" on "БазаДанных" ("КартДоступ");
+
+ALTER TABLE "ПриходУход"
+	ADD CONSTRAINT "ПриходУход_FР_2096" FOREIGN KEY ("Расписание") REFERENCES "Расписание" ("primaryKey");
+
+CREATE INDEX "ПриходУход_IР_7253" on "ПриходУход" ("Расписание");
 
 ALTER TABLE "ПриходУход"
 	ADD CONSTRAINT "ПриходУход_FС_5275" FOREIGN KEY ("СправУч") REFERENCES "СправУч" ("primaryKey");
