@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISPrilozhenie_44КлассУч",
+  "modelName": "i-i-s-prilozhenie-44-класс-уч",
+  "className": "КлассУч",
+  "nameSpace": "IIS.Prilozhenie_44",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "назв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлассУчE",
+      "modelName": "i-i-s-prilozhenie-44-класс-уч",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Название Класса",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлассУчL",
+      "modelName": "i-i-s-prilozhenie-44-класс-уч",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Название Класса",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

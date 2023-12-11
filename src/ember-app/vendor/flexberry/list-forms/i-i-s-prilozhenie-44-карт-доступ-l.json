@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-карт-доступ-e",
+  "editForm": "i-i-s-prilozhenie-44-карт-доступ-e",
+  "external": false,
+  "caption": "Карт доступ",
+  "name": "IISPrilozhenie_44КартДоступL",
+  "className": "КартДоступL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-карт-доступ",
+      "modelProjection": "КартДоступL"
+    }
+  ]
+}

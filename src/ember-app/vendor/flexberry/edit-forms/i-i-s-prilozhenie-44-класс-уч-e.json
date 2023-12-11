@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Класс уч",
+  "name": "IISPrilozhenie_44КлассУчE",
+  "className": "КлассУчE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-класс-уч",
+      "modelProjection": "КлассУчE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-класс-уч-e",
+  "editForm": "i-i-s-prilozhenie-44-класс-уч-e",
+  "external": false,
+  "caption": "Класс уч",
+  "name": "IISPrilozhenie_44КлассУчL",
+  "className": "КлассУчL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-класс-уч",
+      "modelProjection": "КлассУчL"
+    }
+  ]
+}
