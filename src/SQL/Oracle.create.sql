@@ -87,6 +87,8 @@ CREATE TABLE "ПриходУход"
 
 	"primaryKey" RAW(16) NOT NULL,
 
+	"Статус" NVARCHAR2(5) NULL,
+
 	"Расписание" RAW(16) NOT NULL,
 
 	"СправУч" RAW(16) NOT NULL,

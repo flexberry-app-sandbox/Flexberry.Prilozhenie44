@@ -9,6 +9,8 @@ moduleForModel('i-i-s-prilozhenie-44-класс-уч', 'Unit | Serializer | i-i-
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-prilozhenie-44-статус',
+
     'model:i-i-s-prilozhenie-44-база-данных',
     'model:i-i-s-prilozhenie-44-карт-доступ',
     'model:i-i-s-prilozhenie-44-класс-уч',

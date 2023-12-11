@@ -37,7 +37,8 @@ namespace IIS.Prilozhenie_44
             "Расписание as \'Расписание\'",
             "Расписание.Урок as \'Урок\'",
             "Расписание.ПериодОт as \'Период От\'",
-            "Расписание.ПериодДо as \'Период До\'"})]
+            "Расписание.ПериодДо as \'Период До\'",
+            "Статус as \'Статус\'"})]
     [View("ПриходУходL", new string[] {
             "СправУч.Фио as \'Фио Ученика\'",
             "СправУч.Номер.Наименование as \'Номер Карты\'",
@@ -45,9 +46,12 @@ namespace IIS.Prilozhenie_44
             "СправУч.СправРод.Фио as \'Фио Родителя\'",
             "Расписание.Урок as \'Урок\'",
             "Расписание.ПериодОт as \'Период От\'",
-            "Расписание.ПериодДо as \'Период До\'"})]
+            "Расписание.ПериодДо as \'Период До\'",
+            "Статус as \'Статус\'"})]
     public class ПриходУход : ICSSoft.STORMNET.DataObject
     {
+        
+        private IIS.Prilozhenie_44.Статус fСтатус;
         
         private IIS.Prilozhenie_44.СправУч fСправУч;
         
@@ -57,6 +61,37 @@ namespace IIS.Prilozhenie_44
 
         // *** End programmer edit section *** (ПриходУход CustomMembers)
 
+        
+        /// <summary>
+        /// Статус.
+        /// </summary>
+        // *** Start programmer edit section *** (ПриходУход.Статус CustomAttributes)
+
+        // *** End programmer edit section *** (ПриходУход.Статус CustomAttributes)
+        public virtual IIS.Prilozhenie_44.Статус Статус
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ПриходУход.Статус Get start)
+
+                // *** End programmer edit section *** (ПриходУход.Статус Get start)
+                IIS.Prilozhenie_44.Статус result = this.fСтатус;
+                // *** Start programmer edit section *** (ПриходУход.Статус Get end)
+
+                // *** End programmer edit section *** (ПриходУход.Статус Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ПриходУход.Статус Set start)
+
+                // *** End programmer edit section *** (ПриходУход.Статус Set start)
+                this.fСтатус = value;
+                // *** Start programmer edit section *** (ПриходУход.Статус Set end)
+
+                // *** End programmer edit section *** (ПриходУход.Статус Set end)
+            }
+        }
         
         /// <summary>
         /// ПриходУход.
