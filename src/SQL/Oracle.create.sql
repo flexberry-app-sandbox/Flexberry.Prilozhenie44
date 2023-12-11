@@ -18,11 +18,11 @@ CREATE TABLE "Расписание"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Урок" NVARCHAR2(255) NULL,
+	"ПериодДо" NVARCHAR2(255) NULL,
 
 	"ПериодОт" NVARCHAR2(255) NULL,
 
-	"ПериодДо" NVARCHAR2(255) NULL,
+	"Урок" NVARCHAR2(255) NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -55,13 +55,15 @@ CREATE TABLE "СправУч"
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Фио" NVARCHAR2(255) NULL,
-
 	"ДатаРожд" DATE NULL,
 
-	"СправРод" RAW(16) NOT NULL,
+	"Фио" NVARCHAR2(255) NULL,
 
 	"КлассУч" RAW(16) NOT NULL,
+
+	"Номер" RAW(16) NOT NULL,
+
+	"СправРод" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -314,14 +316,19 @@ CREATE TABLE "ApplicationLog"
 
 
 ALTER TABLE "СправУч"
-	ADD CONSTRAINT "СправУч_FСпра_6148" FOREIGN KEY ("СправРод") REFERENCES "СправРод" ("primaryKey");
-
-CREATE INDEX "СправУч_IСпра_3797" on "СправУч" ("СправРод");
-
-ALTER TABLE "СправУч"
 	ADD CONSTRAINT "СправУч_FКлас_5016" FOREIGN KEY ("КлассУч") REFERENCES "КлассУч" ("primaryKey");
 
 CREATE INDEX "СправУч_IКлассУч" on "СправУч" ("КлассУч");
+
+ALTER TABLE "СправУч"
+	ADD CONSTRAINT "СправУч_FНомер_0" FOREIGN KEY ("Номер") REFERENCES "Номер" ("primaryKey");
+
+CREATE INDEX "СправУч_IНомер" on "СправУч" ("Номер");
+
+ALTER TABLE "СправУч"
+	ADD CONSTRAINT "СправУч_FСпра_6148" FOREIGN KEY ("СправРод") REFERENCES "СправРод" ("primaryKey");
+
+CREATE INDEX "СправУч_IСпра_3797" on "СправУч" ("СправРод");
 
 ALTER TABLE "БазаДанных"
 	ADD CONSTRAINT "БазаДанных_FС_3615" FOREIGN KEY ("СправУч") REFERENCES "СправУч" ("primaryKey");

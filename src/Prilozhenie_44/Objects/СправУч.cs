@@ -30,6 +30,8 @@ namespace IIS.Prilozhenie_44
     [Caption("Справочник Учеников")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СправУчE", new string[] {
+            "Номер as \'Номер Карты\'",
+            "Номер.Наименование as \'Номер Карты\'",
             "Фио as \'Фио\'",
             "ДатаРожд as \'Дата Рождения\'",
             "КлассУч as \'Класс Ученика\'",
@@ -37,6 +39,7 @@ namespace IIS.Prilozhenie_44
             "СправРод as \'Фио Родителя\'",
             "СправРод.Фио as \'Фио Родителя\'"})]
     [View("СправУчL", new string[] {
+            "Номер.Наименование as \'Номер Карты\'",
             "Фио as \'Фио\'",
             "ДатаРожд as \'Дата Рождения\'",
             "КлассУч.Назв as \'Класс Ученика\'",
@@ -51,6 +54,8 @@ namespace IIS.Prilozhenie_44
         private IIS.Prilozhenie_44.СправРод fСправРод;
         
         private IIS.Prilozhenie_44.КлассУч fКлассУч;
+        
+        private IIS.Prilozhenie_44.Номер fНомер;
         
         // *** Start programmer edit section *** (СправУч CustomMembers)
 
@@ -151,6 +156,40 @@ namespace IIS.Prilozhenie_44
                 // *** Start programmer edit section *** (СправУч.КлассУч Set end)
 
                 // *** End programmer edit section *** (СправУч.КлассУч Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Справ уч.
+        /// </summary>
+        // *** Start programmer edit section *** (СправУч.Номер CustomAttributes)
+
+        // *** End programmer edit section *** (СправУч.Номер CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Номер"})]
+        [NotNull()]
+        public virtual IIS.Prilozhenie_44.Номер Номер
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СправУч.Номер Get start)
+
+                // *** End programmer edit section *** (СправУч.Номер Get start)
+                IIS.Prilozhenie_44.Номер result = this.fНомер;
+                // *** Start programmer edit section *** (СправУч.Номер Get end)
+
+                // *** End programmer edit section *** (СправУч.Номер Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СправУч.Номер Set start)
+
+                // *** End programmer edit section *** (СправУч.Номер Set start)
+                this.fНомер = value;
+                // *** Start programmer edit section *** (СправУч.Номер Set end)
+
+                // *** End programmer edit section *** (СправУч.Номер Set end)
             }
         }
         

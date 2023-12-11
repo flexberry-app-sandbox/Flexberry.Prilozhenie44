@@ -25,6 +25,32 @@
     </div>
   </div>
   <div class="field">
+    <label>{{t "forms.i-i-s-prilozhenie-44-справ-уч-e.номер-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.номер
+      relationName="номер"
+      projection="НомерL"
+      title=(t "forms.i-i-s-prilozhenie-44-справ-уч-e.номер-caption")
+      readonly=readonly
+      componentName="номерLookup"
+      class=(if (v-get validationModel "номер" "isInvalid") "error")
+      data-test-i-i-s-prilozhenie-44-справ-уч-e-номер=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номер" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=true
+      value=model.номер.наименование
+      class=(if (v-get validationModel.номер "наименование" "isInvalid") "error")
+      label=(t "forms.i-i-s-prilozhenie-44-справ-уч-e.номер.наименование-caption")
+      data-test-i-i-s-prilozhenie-44-справ-уч-e-номер-наименование=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel.номер "наименование" "message")}}
+  </div>
+  <div class="field">
     {{flexberry-field
       readonly=readonly
       value=model.фио
