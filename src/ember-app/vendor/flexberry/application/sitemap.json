@@ -70,6 +70,13 @@
           "caption": "Расписание",
           "title": "",
           "children": null
+        },
+        {
+          "link": "i-i-s-prilozhenie-44-просмотр-l",
+          "menuName": null,
+          "caption": "Просмотр Прихода/Ухода в школу",
+          "title": "",
+          "children": null
         }
       ]
     }

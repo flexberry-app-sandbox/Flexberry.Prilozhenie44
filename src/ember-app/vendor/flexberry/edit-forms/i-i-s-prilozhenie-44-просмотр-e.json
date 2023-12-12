@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СправРод",
+      "projection": "СправРодL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44ПросмотрE",
+  "className": "ПросмотрE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-просмотр",
+      "modelProjection": "ПросмотрE"
+    }
+  ]
+}

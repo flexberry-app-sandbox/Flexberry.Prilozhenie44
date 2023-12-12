@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-prilozhenie-44-просмотр-e",
+  "editForm": "i-i-s-prilozhenie-44-просмотр-e",
+  "external": false,
+  "caption": "",
+  "name": "IISPrilozhenie_44ПросмотрL",
+  "className": "ПросмотрL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-44-просмотр",
+      "modelProjection": "ПросмотрL"
+    }
+  ]
+}

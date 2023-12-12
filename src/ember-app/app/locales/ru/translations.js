@@ -5,6 +5,7 @@ import IISPrilozhenie_44КартДоступLForm from './forms/i-i-s-prilozheni
 import IISPrilozhenie_44КлассУчLForm from './forms/i-i-s-prilozhenie-44-класс-уч-l';
 import IISPrilozhenie_44НомерLForm from './forms/i-i-s-prilozhenie-44-номер-l';
 import IISPrilozhenie_44ПриходУходLForm from './forms/i-i-s-prilozhenie-44-приход-уход-l';
+import IISPrilozhenie_44ПросмотрLForm from './forms/i-i-s-prilozhenie-44-просмотр-l';
 import IISPrilozhenie_44РасписаниеLForm from './forms/i-i-s-prilozhenie-44-расписание-l';
 import IISPrilozhenie_44СправДолжLForm from './forms/i-i-s-prilozhenie-44-справ-долж-l';
 import IISPrilozhenie_44СправРодLForm from './forms/i-i-s-prilozhenie-44-справ-род-l';
@@ -14,6 +15,7 @@ import IISPrilozhenie_44КартДоступEForm from './forms/i-i-s-prilozheni
 import IISPrilozhenie_44КлассУчEForm from './forms/i-i-s-prilozhenie-44-класс-уч-e';
 import IISPrilozhenie_44НомерEForm from './forms/i-i-s-prilozhenie-44-номер-e';
 import IISPrilozhenie_44ПриходУходEForm from './forms/i-i-s-prilozhenie-44-приход-уход-e';
+import IISPrilozhenie_44ПросмотрEForm from './forms/i-i-s-prilozhenie-44-просмотр-e';
 import IISPrilozhenie_44РасписаниеEForm from './forms/i-i-s-prilozhenie-44-расписание-e';
 import IISPrilozhenie_44СправДолжEForm from './forms/i-i-s-prilozhenie-44-справ-долж-e';
 import IISPrilozhenie_44СправРодEForm from './forms/i-i-s-prilozhenie-44-справ-род-e';
@@ -24,6 +26,7 @@ import IISPrilozhenie_44КартДоступModel from './models/i-i-s-prilozhen
 import IISPrilozhenie_44КлассУчModel from './models/i-i-s-prilozhenie-44-класс-уч';
 import IISPrilozhenie_44НомерModel from './models/i-i-s-prilozhenie-44-номер';
 import IISPrilozhenie_44ПриходУходModel from './models/i-i-s-prilozhenie-44-приход-уход';
+import IISPrilozhenie_44ПросмотрModel from './models/i-i-s-prilozhenie-44-просмотр';
 import IISPrilozhenie_44РасписаниеModel from './models/i-i-s-prilozhenie-44-расписание';
 import IISPrilozhenie_44СправДолжModel from './models/i-i-s-prilozhenie-44-справ-долж';
 import IISPrilozhenie_44СправРодModel from './models/i-i-s-prilozhenie-44-справ-род';
@@ -40,6 +43,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-класс-уч': IISPrilozhenie_44КлассУчModel,
     'i-i-s-prilozhenie-44-номер': IISPrilozhenie_44НомерModel,
     'i-i-s-prilozhenie-44-приход-уход': IISPrilozhenie_44ПриходУходModel,
+    'i-i-s-prilozhenie-44-просмотр': IISPrilozhenie_44ПросмотрModel,
     'i-i-s-prilozhenie-44-расписание': IISPrilozhenie_44РасписаниеModel,
     'i-i-s-prilozhenie-44-справ-долж': IISPrilozhenie_44СправДолжModel,
     'i-i-s-prilozhenie-44-справ-род': IISPrilozhenie_44СправРодModel,
@@ -148,6 +152,10 @@ $.extend(true, translations, {
           'i-i-s-prilozhenie-44-расписание-l': {
             caption: 'Расписание',
             title: ''
+          },
+          'i-i-s-prilozhenie-44-просмотр-l': {
+            caption: 'Просмотр Прихода/Ухода в школу',
+            title: ''
           }
         }
       }
@@ -165,6 +173,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-класс-уч-l': IISPrilozhenie_44КлассУчLForm,
     'i-i-s-prilozhenie-44-номер-l': IISPrilozhenie_44НомерLForm,
     'i-i-s-prilozhenie-44-приход-уход-l': IISPrilozhenie_44ПриходУходLForm,
+    'i-i-s-prilozhenie-44-просмотр-l': IISPrilozhenie_44ПросмотрLForm,
     'i-i-s-prilozhenie-44-расписание-l': IISPrilozhenie_44РасписаниеLForm,
     'i-i-s-prilozhenie-44-справ-долж-l': IISPrilozhenie_44СправДолжLForm,
     'i-i-s-prilozhenie-44-справ-род-l': IISPrilozhenie_44СправРодLForm,
@@ -174,6 +183,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-класс-уч-e': IISPrilozhenie_44КлассУчEForm,
     'i-i-s-prilozhenie-44-номер-e': IISPrilozhenie_44НомерEForm,
     'i-i-s-prilozhenie-44-приход-уход-e': IISPrilozhenie_44ПриходУходEForm,
+    'i-i-s-prilozhenie-44-просмотр-e': IISPrilozhenie_44ПросмотрEForm,
     'i-i-s-prilozhenie-44-расписание-e': IISPrilozhenie_44РасписаниеEForm,
     'i-i-s-prilozhenie-44-справ-долж-e': IISPrilozhenie_44СправДолжEForm,
     'i-i-s-prilozhenie-44-справ-род-e': IISPrilozhenie_44СправРодEForm,

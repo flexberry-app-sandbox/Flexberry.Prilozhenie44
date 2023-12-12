@@ -28,6 +28,19 @@ CREATE TABLE "Расписание"
 ) ;
 
 
+CREATE TABLE "Просмотр"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"Время" DATE NULL,
+
+	"СправРод" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "Номер"
 (
 
@@ -329,6 +342,11 @@ CREATE TABLE "ApplicationLog"
 ) ;
 
 
+
+ALTER TABLE "Просмотр"
+	ADD CONSTRAINT "Просмотр_FСпр_7466" FOREIGN KEY ("СправРод") REFERENCES "СправРод" ("primaryKey");
+
+CREATE INDEX "Просмотр_IСпра_98" on "Просмотр" ("СправРод");
 
 ALTER TABLE "СправУч"
 	ADD CONSTRAINT "СправУч_FКлас_5016" FOREIGN KEY ("КлассУч") REFERENCES "КлассУч" ("primaryKey");

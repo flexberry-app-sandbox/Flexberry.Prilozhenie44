@@ -16,6 +16,7 @@ moduleForModel('i-i-s-prilozhenie-44-номер', 'Unit | Serializer | i-i-s-pri
     'model:i-i-s-prilozhenie-44-класс-уч',
     'model:i-i-s-prilozhenie-44-номер',
     'model:i-i-s-prilozhenie-44-приход-уход',
+    'model:i-i-s-prilozhenie-44-просмотр',
     'model:i-i-s-prilozhenie-44-расписание',
     'model:i-i-s-prilozhenie-44-справ-долж',
     'model:i-i-s-prilozhenie-44-справ-род',
