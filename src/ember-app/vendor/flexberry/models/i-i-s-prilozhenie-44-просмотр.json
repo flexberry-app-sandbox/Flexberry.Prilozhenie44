@@ -25,7 +25,13 @@
       "inverse": null
     }
   ],
-  "hasMany": [],
+  "hasMany": [
+    {
+      "name": "ученик",
+      "relatedTo": "i-i-s-prilozhenie-44-ученик",
+      "inverse": "просмотр"
+    }
+  ],
   "projections": [
     {
       "name": "ПросмотрE",
@@ -61,7 +67,15 @@
           "inverse": null
         }
       ],
-      "hasMany": []
+      "hasMany": [
+        {
+          "projectionName": "УченикE",
+          "caption": "Ученик",
+          "name": "ученик",
+          "relatedTo": "i-i-s-prilozhenie-44-ученик",
+          "inverse": null
+        }
+      ]
     },
     {
       "name": "ПросмотрL",

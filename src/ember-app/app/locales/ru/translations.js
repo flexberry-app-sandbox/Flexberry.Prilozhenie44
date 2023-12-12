@@ -32,6 +32,7 @@ import IISPrilozhenie_44СправДолжModel from './models/i-i-s-prilozhenie
 import IISPrilozhenie_44СправРодModel from './models/i-i-s-prilozhenie-44-справ-род';
 import IISPrilozhenie_44СправСотрModel from './models/i-i-s-prilozhenie-44-справ-сотр';
 import IISPrilozhenie_44СправУчModel from './models/i-i-s-prilozhenie-44-справ-уч';
+import IISPrilozhenie_44УченикModel from './models/i-i-s-prilozhenie-44-ученик';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -48,7 +49,8 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-44-справ-долж': IISPrilozhenie_44СправДолжModel,
     'i-i-s-prilozhenie-44-справ-род': IISPrilozhenie_44СправРодModel,
     'i-i-s-prilozhenie-44-справ-сотр': IISPrilozhenie_44СправСотрModel,
-    'i-i-s-prilozhenie-44-справ-уч': IISPrilozhenie_44СправУчModel
+    'i-i-s-prilozhenie-44-справ-уч': IISPrilozhenie_44СправУчModel,
+    'i-i-s-prilozhenie-44-ученик': IISPrilozhenie_44УченикModel
   },
 
   'application-name': 'Prilozhenie_44',

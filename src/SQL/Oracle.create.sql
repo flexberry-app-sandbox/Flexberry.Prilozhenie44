@@ -110,6 +110,19 @@ CREATE TABLE "ПриходУход"
 ) ;
 
 
+CREATE TABLE "Ученик"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"ПриходУход" RAW(16) NOT NULL,
+
+	"Просмотр" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "СправСотр"
 (
 
@@ -382,6 +395,16 @@ ALTER TABLE "ПриходУход"
 	ADD CONSTRAINT "ПриходУход_FС_5275" FOREIGN KEY ("СправУч") REFERENCES "СправУч" ("primaryKey");
 
 CREATE INDEX "ПриходУход_IС_5526" on "ПриходУход" ("СправУч");
+
+ALTER TABLE "Ученик"
+	ADD CONSTRAINT "Ученик_FПрихо_9929" FOREIGN KEY ("ПриходУход") REFERENCES "ПриходУход" ("primaryKey");
+
+CREATE INDEX "Ученик_IПрихо_7417" on "Ученик" ("ПриходУход");
+
+ALTER TABLE "Ученик"
+	ADD CONSTRAINT "Ученик_FПросм_5666" FOREIGN KEY ("Просмотр") REFERENCES "Просмотр" ("primaryKey");
+
+CREATE INDEX "Ученик_IПросмотр" on "Ученик" ("Просмотр");
 
 ALTER TABLE "СправСотр"
 	ADD CONSTRAINT "СправСотр_FСп_8900" FOREIGN KEY ("СправДолж") REFERENCES "СправДолж" ("primaryKey");

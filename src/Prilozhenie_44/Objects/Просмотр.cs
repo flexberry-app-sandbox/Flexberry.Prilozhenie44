@@ -32,6 +32,8 @@ namespace IIS.Prilozhenie_44
             "Время as \'Время\'",
             "СправРод as \'Фио Родителя\'",
             "СправРод.Фио as \'Фио Родителя\'"})]
+    [AssociatedDetailViewAttribute("ПросмотрE", "Ученик", "УченикE", true, "", "Ученик", true, new string[] {
+            ""})]
     [View("ПросмотрL", new string[] {
             "Время as \'Время\'",
             "СправРод.Фио as \'Фио Родителя\'"})]
@@ -41,6 +43,8 @@ namespace IIS.Prilozhenie_44
         private System.DateTime fВремя;
         
         private IIS.Prilozhenie_44.СправРод fСправРод;
+        
+        private IIS.Prilozhenie_44.DetailArrayOfУченик fУченик;
         
         // *** Start programmer edit section *** (Просмотр CustomMembers)
 
@@ -109,6 +113,41 @@ namespace IIS.Prilozhenie_44
                 // *** Start programmer edit section *** (Просмотр.СправРод Set end)
 
                 // *** End programmer edit section *** (Просмотр.СправРод Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Просмотр.
+        /// </summary>
+        // *** Start programmer edit section *** (Просмотр.Ученик CustomAttributes)
+
+        // *** End programmer edit section *** (Просмотр.Ученик CustomAttributes)
+        public virtual IIS.Prilozhenie_44.DetailArrayOfУченик Ученик
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Просмотр.Ученик Get start)
+
+                // *** End programmer edit section *** (Просмотр.Ученик Get start)
+                if ((this.fУченик == null))
+                {
+                    this.fУченик = new IIS.Prilozhenie_44.DetailArrayOfУченик(this);
+                }
+                IIS.Prilozhenie_44.DetailArrayOfУченик result = this.fУченик;
+                // *** Start programmer edit section *** (Просмотр.Ученик Get end)
+
+                // *** End programmer edit section *** (Просмотр.Ученик Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Просмотр.Ученик Set start)
+
+                // *** End programmer edit section *** (Просмотр.Ученик Set start)
+                this.fУченик = value;
+                // *** Start programmer edit section *** (Просмотр.Ученик Set end)
+
+                // *** End programmer edit section *** (Просмотр.Ученик Set end)
             }
         }
         

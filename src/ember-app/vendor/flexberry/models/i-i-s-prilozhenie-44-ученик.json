@@ -1,0 +1,137 @@
+﻿{
+  "name": "IISPrilozhenie_44Ученик",
+  "modelName": "i-i-s-prilozhenie-44-ученик",
+  "className": "Ученик",
+  "nameSpace": "IIS.Prilozhenie_44",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходУход",
+      "relatedTo": "i-i-s-prilozhenie-44-приход-уход",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "просмотр",
+      "relatedTo": "i-i-s-prilozhenie-44-просмотр",
+      "inverse": "ученик"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УченикE",
+      "modelName": "i-i-s-prilozhenie-44-ученик",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Фио Ученика",
+          "lookupValueField": "фио Ученика",
+          "relationName": "ПриходУход",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ПриходУход.СправУч",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ПриходУход.СправУч.КлассУч",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "назв",
+                      "caption": "Класс Ученика",
+                      "hidden": false,
+                      "index": 2
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "классУч",
+                  "relatedTo": "i-i-s-prilozhenie-44-класс-уч",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фио",
+                  "caption": "Фио Ученика",
+                  "hidden": false,
+                  "index": 1
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "справУч",
+              "relatedTo": "i-i-s-prilozhenie-44-справ-уч",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ПриходУход.Расписание",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "урок",
+                  "caption": "Номер Урока",
+                  "hidden": false,
+                  "index": 3
+                },
+                {
+                  "name": "периодОт",
+                  "caption": "Период От",
+                  "hidden": false,
+                  "index": 4
+                },
+                {
+                  "name": "периодДо",
+                  "caption": "Период До",
+                  "hidden": false,
+                  "index": 5
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "расписание",
+              "relatedTo": "i-i-s-prilozhenie-44-расписание",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "статус",
+              "caption": "Статус",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Приход и Уход",
+          "name": "приходУход",
+          "relatedTo": "i-i-s-prilozhenie-44-приход-уход",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

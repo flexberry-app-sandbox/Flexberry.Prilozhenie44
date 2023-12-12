@@ -14,6 +14,7 @@ moduleForModel('i-i-s-prilozhenie-44-база-данных', 'Unit | Model | i-i
     'model:i-i-s-prilozhenie-44-справ-род',
     'model:i-i-s-prilozhenie-44-справ-сотр',
     'model:i-i-s-prilozhenie-44-справ-уч',
+    'model:i-i-s-prilozhenie-44-ученик',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

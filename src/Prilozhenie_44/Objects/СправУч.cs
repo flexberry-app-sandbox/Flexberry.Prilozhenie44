@@ -47,9 +47,9 @@ namespace IIS.Prilozhenie_44
     public class СправУч : ICSSoft.STORMNET.DataObject
     {
         
-        private string fФио;
-        
         private System.DateTime fДатаРожд;
+        
+        private string fФио;
         
         private IIS.Prilozhenie_44.СправРод fСправРод;
         

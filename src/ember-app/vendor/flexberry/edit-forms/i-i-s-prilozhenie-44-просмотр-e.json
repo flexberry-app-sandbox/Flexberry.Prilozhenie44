@@ -7,6 +7,14 @@
       "relationName": "СправРод",
       "projection": "СправРодL",
       "detailModelName": null
+    },
+    {
+      "master": "приходУход",
+      "displayAttributeName": "фио Ученика",
+      "required": true,
+      "relationName": "Ученик.ПриходУход",
+      "projection": "ПриходУходL",
+      "detailModelName": "i-i-s-prilozhenie-44-ученик"
     }
   ],
   "external": false,
