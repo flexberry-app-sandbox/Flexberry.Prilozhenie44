@@ -12,6 +12,7 @@ namespace IIS.Prilozhenie_44
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.Prilozhenie_44
         // *** Start programmer edit section *** (Статус.Вход CustomAttributes)
 
         // *** End programmer edit section *** (Статус.Вход CustomAttributes)
+        [Caption("Вход")]
         Вход,
         
         // *** Start programmer edit section *** (Статус.Выход CustomAttributes)
 
         // *** End programmer edit section *** (Статус.Выход CustomAttributes)
+        [Caption("Выход")]
         Выход,
     }
 }

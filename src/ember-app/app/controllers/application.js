@@ -28,55 +28,55 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-44-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-класс-уч-l.title'),
-            icon: 'book',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-долж-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-долж-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-долж-l.title'),
-            icon: 'archive',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-уч-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-уч-l.title'),
-            icon: 'building',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-сотр-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-сотр-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-сотр-l.title'),
-            icon: 'address card',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-справ-род-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-род-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-справ-род-l.title'),
-            icon: 'folder open',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-карт-доступ-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-карт-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-карт-доступ-l.title'),
-            icon: 'list',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-номер-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-номер-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-номер-l.title'),
-            icon: 'file',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-приход-уход-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-приход-уход-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-приход-уход-l.title'),
-            icon: 'chart bar',
+            icon: 'calendar',
             children: null
           }, {
             link: 'i-i-s-prilozhenie-44-расписание-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-расписание-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-44.i-i-s-prilozhenie-44-расписание-l.title'),
-            icon: 'file',
+            icon: 'chart bar',
             children: null
           }]
         }

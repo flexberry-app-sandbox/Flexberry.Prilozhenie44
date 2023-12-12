@@ -2,7 +2,7 @@
   "nameSpace": "IIS.Prilozhenie_44",
   "className": "Статус",
   "enumObjects": {
-    "Вход": "",
-    "Выход": ""
+    "Вход": "Вход",
+    "Выход": "Выход"
   }
 }
